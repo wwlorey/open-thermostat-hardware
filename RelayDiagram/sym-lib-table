@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name OpenThermostat-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenThermostat-rescue.lib)(options "")(descr ""))
 )
