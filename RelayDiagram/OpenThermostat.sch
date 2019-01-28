@@ -576,8 +576,6 @@ F 3 "~" H 7250 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6175 4825 6950 4825
-Wire Wire Line
 	6950 2550 6950 2875
 Wire Wire Line
 	6950 2875 7000 2875
@@ -589,9 +587,6 @@ Wire Wire Line
 	6950 2975 6950 3825
 Wire Wire Line
 	6950 3825 7000 3825
-Connection ~ 6950 4825
-Wire Wire Line
-	6175 5775 7250 5775
 Wire Wire Line
 	7250 3825 7300 3825
 Wire Wire Line
@@ -607,14 +602,9 @@ Wire Wire Line
 Wire Wire Line
 	7300 4875 7250 4875
 Wire Wire Line
-	7250 4875 7250 5775
-Connection ~ 7250 5775
-Wire Wire Line
 	6950 3925 7000 3925
 Wire Wire Line
 	7000 3925 7000 3825
-Wire Wire Line
-	6950 3925 6950 4825
 Wire Wire Line
 	7250 3825 7250 2975
 Wire Wire Line
@@ -706,7 +696,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 1425 7750 1425
 $Comp
-L SeniorDesignLibrary:ST7735 U2
+L OpenThermostat-rescue:ST7735-SeniorDesignLibrary U2
 U 1 1 5C414B96
 P 2900 5200
 F 0 "U2" H 4179 5200 50  0000 L CNN
@@ -1539,15 +1529,11 @@ F 3 "~" H 7480 6000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7480 5850 7480 5775
-Wire Wire Line
-	7250 5775 7480 5775
 Connection ~ 7480 5775
 Wire Wire Line
 	7480 5775 7750 5775
 Wire Wire Line
 	7470 4885 7470 4825
-Wire Wire Line
-	6950 4825 7470 4825
 Connection ~ 7470 4825
 Wire Wire Line
 	7470 4825 7750 4825
@@ -1593,4 +1579,10 @@ F 3 "" H 7480 6150 50  0001 C CNN
 	1    7480 6150
 	1    0    0    -1  
 $EndComp
+Text Notes 2500 5875 0    50   ~ 0
+Replace with SD1306?
+Wire Wire Line
+	6175 4825 7470 4825
+Wire Wire Line
+	6175 5775 7480 5775
 $EndSCHEMATC
