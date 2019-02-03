@@ -668,13 +668,13 @@ $EndComp
 $Comp
 L Device:D D?
 U 1 1 5C66CF9E
-P 7025 950
-F 0 "D?" V 6975 800 50  0000 L CNN
-F 1 "D" V 7075 825 50  0000 L CNN
-F 2 "" H 7025 950 50  0001 C CNN
-F 3 "~" H 7025 950 50  0001 C CNN
-	1    7025 950 
-	0    1    1    0   
+P 7925 575
+F 0 "D?" V 7875 425 50  0000 L CNN
+F 1 "D" V 7975 450 50  0000 L CNN
+F 2 "" H 7925 575 50  0001 C CNN
+F 3 "~" H 7925 575 50  0001 C CNN
+	1    7925 575 
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6400 1250 6400 1225
@@ -683,14 +683,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 1250 6400 1250
 Connection ~ 6400 1250
-Wire Wire Line
-	7025 1100 6700 1100
-Connection ~ 6700 1100
-Wire Wire Line
-	6700 700  7025 700 
-Wire Wire Line
-	7025 700  7025 800 
-Connection ~ 7025 700 
 $Comp
 L Device:Q_NMOS_DGS Q?
 U 1 1 5C76A404
@@ -743,13 +735,13 @@ $EndComp
 $Comp
 L Device:D D?
 U 1 1 5C76A41F
-P 7025 1775
-F 0 "D?" V 6975 1625 50  0000 L CNN
-F 1 "D" V 7075 1650 50  0000 L CNN
-F 2 "" H 7025 1775 50  0001 C CNN
-F 3 "~" H 7025 1775 50  0001 C CNN
-	1    7025 1775
-	0    1    1    0   
+P 7925 1775
+F 0 "D?" V 7875 1625 50  0000 L CNN
+F 1 "D" V 7975 1650 50  0000 L CNN
+F 2 "" H 7925 1775 50  0001 C CNN
+F 3 "~" H 7925 1775 50  0001 C CNN
+	1    7925 1775
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6400 2075 6400 2050
@@ -759,21 +751,9 @@ Wire Wire Line
 	6700 2075 6400 2075
 Connection ~ 6400 2075
 Wire Wire Line
-	7025 1925 6700 1925
-Connection ~ 6700 1925
-Wire Wire Line
-	6700 1525 7025 1525
-Wire Wire Line
-	7025 1525 7025 1625
-Connection ~ 7025 1525
-Wire Wire Line
 	7550 700  7550 825 
 Wire Wire Line
-	7025 700  7550 700 
-Wire Wire Line
 	7550 1525 7550 1425
-Wire Wire Line
-	7025 1525 7550 1525
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5C9B374C
@@ -848,13 +828,13 @@ $EndComp
 $Comp
 L Device:D D?
 U 1 1 5C9DE08E
-P 7025 2600
-F 0 "D?" V 6975 2450 50  0000 L CNN
-F 1 "D" V 7075 2475 50  0000 L CNN
-F 2 "" H 7025 2600 50  0001 C CNN
-F 3 "~" H 7025 2600 50  0001 C CNN
-	1    7025 2600
-	0    1    1    0   
+P 7925 2225
+F 0 "D?" V 7875 2075 50  0000 L CNN
+F 1 "D" V 7975 2100 50  0000 L CNN
+F 2 "" H 7925 2225 50  0001 C CNN
+F 3 "~" H 7925 2225 50  0001 C CNN
+	1    7925 2225
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6400 2900 6400 2875
@@ -863,14 +843,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 2900 6400 2900
 Connection ~ 6400 2900
-Wire Wire Line
-	7025 2750 6700 2750
-Connection ~ 6700 2750
-Wire Wire Line
-	6700 2350 7025 2350
-Wire Wire Line
-	7025 2350 7025 2450
-Connection ~ 7025 2350
 $Comp
 L Device:Q_NMOS_DGS Q?
 U 1 1 5C9DE09D
@@ -923,13 +895,13 @@ $EndComp
 $Comp
 L Device:D D?
 U 1 1 5C9DE0B8
-P 7025 3425
-F 0 "D?" V 6975 3275 50  0000 L CNN
-F 1 "D" V 7075 3300 50  0000 L CNN
-F 2 "" H 7025 3425 50  0001 C CNN
-F 3 "~" H 7025 3425 50  0001 C CNN
-	1    7025 3425
-	0    1    1    0   
+P 7950 3425
+F 0 "D?" V 7900 3275 50  0000 L CNN
+F 1 "D" V 8000 3300 50  0000 L CNN
+F 2 "" H 7950 3425 50  0001 C CNN
+F 3 "~" H 7950 3425 50  0001 C CNN
+	1    7950 3425
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6400 3725 6400 3700
@@ -939,21 +911,9 @@ Wire Wire Line
 	6700 3725 6400 3725
 Connection ~ 6400 3725
 Wire Wire Line
-	7025 3575 6700 3575
-Connection ~ 6700 3575
-Wire Wire Line
-	6700 3175 7025 3175
-Wire Wire Line
-	7025 3175 7025 3275
-Connection ~ 7025 3175
-Wire Wire Line
 	7550 2350 7550 2475
 Wire Wire Line
-	7025 2350 7550 2350
-Wire Wire Line
 	7550 3175 7550 3075
-Wire Wire Line
-	7025 3175 7550 3175
 $Comp
 L SeniorDesignLibrary:EE2-3TNU-L_DPDT_Relay U?
 U 1 1 5C9F69ED
@@ -1017,13 +977,13 @@ $EndComp
 $Comp
 L Device:D D?
 U 1 1 5C9F6A0E
-P 7025 4225
-F 0 "D?" V 6975 4075 50  0000 L CNN
-F 1 "D" V 7075 4100 50  0000 L CNN
-F 2 "" H 7025 4225 50  0001 C CNN
-F 3 "~" H 7025 4225 50  0001 C CNN
-	1    7025 4225
-	0    1    1    0   
+P 7950 3850
+F 0 "D?" V 7900 3700 50  0000 L CNN
+F 1 "D" V 8000 3725 50  0000 L CNN
+F 2 "" H 7950 3850 50  0001 C CNN
+F 3 "~" H 7950 3850 50  0001 C CNN
+	1    7950 3850
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6400 4525 6400 4500
@@ -1032,14 +992,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 4525 6400 4525
 Connection ~ 6400 4525
-Wire Wire Line
-	7025 4375 6700 4375
-Connection ~ 6700 4375
-Wire Wire Line
-	6700 3975 7025 3975
-Wire Wire Line
-	7025 3975 7025 4075
-Connection ~ 7025 3975
 $Comp
 L Device:Q_NMOS_DGS Q?
 U 1 1 5C9F6A1D
@@ -1092,13 +1044,13 @@ $EndComp
 $Comp
 L Device:D D?
 U 1 1 5C9F6A38
-P 7025 5050
-F 0 "D?" V 6975 4900 50  0000 L CNN
-F 1 "D" V 7075 4925 50  0000 L CNN
-F 2 "" H 7025 5050 50  0001 C CNN
-F 3 "~" H 7025 5050 50  0001 C CNN
-	1    7025 5050
-	0    1    1    0   
+P 7950 5075
+F 0 "D?" V 7900 4925 50  0000 L CNN
+F 1 "D" V 8000 4950 50  0000 L CNN
+F 2 "" H 7950 5075 50  0001 C CNN
+F 3 "~" H 7950 5075 50  0001 C CNN
+	1    7950 5075
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6400 5350 6400 5325
@@ -1108,21 +1060,9 @@ Wire Wire Line
 	6700 5350 6400 5350
 Connection ~ 6400 5350
 Wire Wire Line
-	7025 5200 6700 5200
-Connection ~ 6700 5200
-Wire Wire Line
-	6700 4800 7025 4800
-Wire Wire Line
-	7025 4800 7025 4900
-Connection ~ 7025 4800
-Wire Wire Line
 	7550 3975 7550 4100
 Wire Wire Line
-	7025 3975 7550 3975
-Wire Wire Line
 	7550 4800 7550 4700
-Wire Wire Line
-	7025 4800 7550 4800
 $Comp
 L SeniorDesignLibrary:EE2-3TNU-L_DPDT_Relay U?
 U 1 1 5C9F6A53
@@ -1186,13 +1126,13 @@ $EndComp
 $Comp
 L Device:D D?
 U 1 1 5C9F6A74
-P 7025 5875
-F 0 "D?" V 6975 5725 50  0000 L CNN
-F 1 "D" V 7075 5750 50  0000 L CNN
-F 2 "" H 7025 5875 50  0001 C CNN
-F 3 "~" H 7025 5875 50  0001 C CNN
-	1    7025 5875
-	0    1    1    0   
+P 7950 5500
+F 0 "D?" V 7900 5350 50  0000 L CNN
+F 1 "D" V 8000 5375 50  0000 L CNN
+F 2 "" H 7950 5500 50  0001 C CNN
+F 3 "~" H 7950 5500 50  0001 C CNN
+	1    7950 5500
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6400 6175 6400 6150
@@ -1201,14 +1141,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 6175 6400 6175
 Connection ~ 6400 6175
-Wire Wire Line
-	7025 6025 6700 6025
-Connection ~ 6700 6025
-Wire Wire Line
-	6700 5625 7025 5625
-Wire Wire Line
-	7025 5625 7025 5725
-Connection ~ 7025 5625
 $Comp
 L Device:Q_NMOS_DGS Q?
 U 1 1 5C9F6A83
@@ -1261,13 +1193,13 @@ $EndComp
 $Comp
 L Device:D D?
 U 1 1 5C9F6A9E
-P 7025 6700
-F 0 "D?" V 6975 6550 50  0000 L CNN
-F 1 "D" V 7075 6575 50  0000 L CNN
-F 2 "" H 7025 6700 50  0001 C CNN
-F 3 "~" H 7025 6700 50  0001 C CNN
-	1    7025 6700
-	0    1    1    0   
+P 7950 6750
+F 0 "D?" V 7900 6600 50  0000 L CNN
+F 1 "D" V 8000 6625 50  0000 L CNN
+F 2 "" H 7950 6750 50  0001 C CNN
+F 3 "~" H 7950 6750 50  0001 C CNN
+	1    7950 6750
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6400 7000 6400 6975
@@ -1277,21 +1209,9 @@ Wire Wire Line
 	6700 7000 6400 7000
 Connection ~ 6400 7000
 Wire Wire Line
-	7025 6850 6700 6850
-Connection ~ 6700 6850
-Wire Wire Line
-	6700 6450 7025 6450
-Wire Wire Line
-	7025 6450 7025 6550
-Connection ~ 7025 6450
-Wire Wire Line
 	7550 5625 7550 5750
 Wire Wire Line
-	7025 5625 7550 5625
-Wire Wire Line
 	7550 6450 7550 6350
-Wire Wire Line
-	7025 6450 7550 6450
 $Comp
 L Device:Q_NMOS_DGS Q?
 U 1 1 5CA3EE69
@@ -1344,13 +1264,13 @@ $EndComp
 $Comp
 L Device:D D?
 U 1 1 5CA3EE84
-P 7025 7550
-F 0 "D?" V 6975 7400 50  0000 L CNN
-F 1 "D" V 7075 7425 50  0000 L CNN
-F 2 "" H 7025 7550 50  0001 C CNN
-F 3 "~" H 7025 7550 50  0001 C CNN
-	1    7025 7550
-	0    1    1    0   
+P 7950 7175
+F 0 "D?" V 7900 7025 50  0000 L CNN
+F 1 "D" V 8000 7050 50  0000 L CNN
+F 2 "" H 7950 7175 50  0001 C CNN
+F 3 "~" H 7950 7175 50  0001 C CNN
+	1    7950 7175
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6400 7850 6400 7825
@@ -1359,14 +1279,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 7850 6400 7850
 Connection ~ 6400 7850
-Wire Wire Line
-	7025 7700 6700 7700
-Connection ~ 6700 7700
-Wire Wire Line
-	6700 7300 7025 7300
-Wire Wire Line
-	7025 7300 7025 7400
-Connection ~ 7025 7300
 $Comp
 L Device:Q_NMOS_DGS Q?
 U 1 1 5CA3EE93
@@ -1419,13 +1331,13 @@ $EndComp
 $Comp
 L Device:D D?
 U 1 1 5CA3EEAE
-P 7025 8375
-F 0 "D?" V 6975 8225 50  0000 L CNN
-F 1 "D" V 7075 8250 50  0000 L CNN
-F 2 "" H 7025 8375 50  0001 C CNN
-F 3 "~" H 7025 8375 50  0001 C CNN
-	1    7025 8375
-	0    1    1    0   
+P 7950 8400
+F 0 "D?" V 7900 8250 50  0000 L CNN
+F 1 "D" V 8000 8275 50  0000 L CNN
+F 2 "" H 7950 8400 50  0001 C CNN
+F 3 "~" H 7950 8400 50  0001 C CNN
+	1    7950 8400
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6400 8675 6400 8650
@@ -1435,21 +1347,9 @@ Wire Wire Line
 	6700 8675 6400 8675
 Connection ~ 6400 8675
 Wire Wire Line
-	7025 8525 6700 8525
-Connection ~ 6700 8525
-Wire Wire Line
-	6700 8125 7025 8125
-Wire Wire Line
-	7025 8125 7025 8225
-Connection ~ 7025 8125
-Wire Wire Line
 	7550 7300 7550 7425
 Wire Wire Line
-	7025 7300 7550 7300
-Wire Wire Line
 	7550 8125 7550 8025
-Wire Wire Line
-	7025 8125 7550 8125
 $Comp
 L SeniorDesignLibrary:EE2-3TNU-L_DPDT_Relay U?
 U 1 1 5CAF2130
@@ -1513,13 +1413,13 @@ $EndComp
 $Comp
 L Device:D D?
 U 1 1 5CAF2151
-P 7025 9175
-F 0 "D?" V 6975 9025 50  0000 L CNN
-F 1 "D" V 7075 9050 50  0000 L CNN
-F 2 "" H 7025 9175 50  0001 C CNN
-F 3 "~" H 7025 9175 50  0001 C CNN
-	1    7025 9175
-	0    1    1    0   
+P 7950 8800
+F 0 "D?" V 7900 8650 50  0000 L CNN
+F 1 "D" V 8000 8675 50  0000 L CNN
+F 2 "" H 7950 8800 50  0001 C CNN
+F 3 "~" H 7950 8800 50  0001 C CNN
+	1    7950 8800
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6400 9475 6400 9450
@@ -1528,14 +1428,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 9475 6400 9475
 Connection ~ 6400 9475
-Wire Wire Line
-	7025 9325 6700 9325
-Connection ~ 6700 9325
-Wire Wire Line
-	6700 8925 7025 8925
-Wire Wire Line
-	7025 8925 7025 9025
-Connection ~ 7025 8925
 $Comp
 L Device:Q_NMOS_DGS Q?
 U 1 1 5CAF2160
@@ -1588,13 +1480,13 @@ $EndComp
 $Comp
 L Device:D D?
 U 1 1 5CAF217B
-P 7025 10000
-F 0 "D?" V 6975 9850 50  0000 L CNN
-F 1 "D" V 7075 9875 50  0000 L CNN
-F 2 "" H 7025 10000 50  0001 C CNN
-F 3 "~" H 7025 10000 50  0001 C CNN
-	1    7025 10000
-	0    1    1    0   
+P 7950 10000
+F 0 "D?" V 7900 9850 50  0000 L CNN
+F 1 "D" V 8000 9875 50  0000 L CNN
+F 2 "" H 7950 10000 50  0001 C CNN
+F 3 "~" H 7950 10000 50  0001 C CNN
+	1    7950 10000
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6400 10300 6400 10275
@@ -1604,21 +1496,9 @@ Wire Wire Line
 	6700 10300 6400 10300
 Connection ~ 6400 10300
 Wire Wire Line
-	7025 10150 6700 10150
-Connection ~ 6700 10150
-Wire Wire Line
-	6700 9750 7025 9750
-Wire Wire Line
-	7025 9750 7025 9850
-Connection ~ 7025 9750
-Wire Wire Line
 	7550 8925 7550 9050
 Wire Wire Line
-	7025 8925 7550 8925
-Wire Wire Line
 	7550 9750 7550 9650
-Wire Wire Line
-	7025 9750 7550 9750
 Text Notes 7875 1600 0    50   ~ 0
 O/B
 Text Notes 7825 3275 0    50   ~ 0
@@ -2040,4 +1920,142 @@ Wire Wire Line
 Wire Wire Line
 	8425 9650 8350 9650
 Connection ~ 8425 9050
+Wire Wire Line
+	6700 5625 7550 5625
+Wire Wire Line
+	7800 5500 7550 5500
+Wire Wire Line
+	7550 5500 7550 5625
+Connection ~ 7550 5625
+Wire Wire Line
+	8100 5500 8425 5500
+Wire Wire Line
+	8425 5500 8425 5750
+Wire Wire Line
+	6700 3975 7550 3975
+Wire Wire Line
+	8100 3850 8425 3850
+Wire Wire Line
+	8425 3850 8425 4100
+Wire Wire Line
+	7800 3850 7550 3850
+Wire Wire Line
+	7550 3850 7550 3975
+Connection ~ 7550 3975
+Wire Wire Line
+	6700 2350 7550 2350
+Wire Wire Line
+	7775 2225 7550 2225
+Wire Wire Line
+	7550 2225 7550 2350
+Connection ~ 7550 2350
+Wire Wire Line
+	8075 2225 8425 2225
+Wire Wire Line
+	8425 2225 8425 2475
+Wire Wire Line
+	8075 575  8425 575 
+Wire Wire Line
+	8425 575  8425 825 
+Wire Wire Line
+	7775 575  7550 575 
+Wire Wire Line
+	7550 575  7550 700 
+Connection ~ 7550 700 
+Wire Wire Line
+	6700 700  7550 700 
+Wire Wire Line
+	8100 7175 8425 7175
+Wire Wire Line
+	8425 7175 8425 7425
+Wire Wire Line
+	7800 7175 7550 7175
+Wire Wire Line
+	7550 7175 7550 7300
+Connection ~ 7550 7300
+Wire Wire Line
+	6700 7300 7550 7300
+Wire Wire Line
+	8100 8800 8425 8800
+Wire Wire Line
+	8425 8800 8425 9050
+Wire Wire Line
+	7800 8800 7550 8800
+Wire Wire Line
+	7550 8800 7550 8925
+Connection ~ 7550 8925
+Wire Wire Line
+	6700 8925 7550 8925
+Wire Wire Line
+	6700 1525 7550 1525
+Wire Wire Line
+	7775 1775 7550 1775
+Wire Wire Line
+	7550 1775 7550 1525
+Connection ~ 7550 1525
+Wire Wire Line
+	8075 1775 8425 1775
+Wire Wire Line
+	8425 1775 8425 1425
+Connection ~ 8425 1425
+Wire Wire Line
+	8100 3425 8425 3425
+Wire Wire Line
+	8425 3425 8425 3075
+Connection ~ 8425 3075
+Wire Wire Line
+	7800 3425 7550 3425
+Wire Wire Line
+	7550 3425 7550 3175
+Connection ~ 7550 3175
+Wire Wire Line
+	6700 3175 7550 3175
+Wire Wire Line
+	6700 4800 7550 4800
+Wire Wire Line
+	8100 5075 8425 5075
+Wire Wire Line
+	8425 5075 8425 4700
+Connection ~ 8425 4700
+Wire Wire Line
+	7800 5075 7550 5075
+Wire Wire Line
+	7550 5075 7550 4800
+Connection ~ 7550 4800
+Wire Wire Line
+	6700 6450 7550 6450
+Wire Wire Line
+	7800 6750 7550 6750
+Wire Wire Line
+	7550 6750 7550 6450
+Connection ~ 7550 6450
+Wire Wire Line
+	8100 6750 8425 6750
+Wire Wire Line
+	8425 6750 8425 6350
+Connection ~ 8425 6350
+Wire Wire Line
+	6700 8125 7550 8125
+Wire Wire Line
+	8100 8400 8425 8400
+Wire Wire Line
+	8425 8400 8425 8025
+Connection ~ 8425 8025
+Wire Wire Line
+	7800 8400 7550 8400
+Wire Wire Line
+	7550 8400 7550 8125
+Connection ~ 7550 8125
+Wire Wire Line
+	7800 10000 7550 10000
+Wire Wire Line
+	7550 10000 7550 9750
+Connection ~ 7550 9750
+Wire Wire Line
+	8100 10000 8425 10000
+Wire Wire Line
+	8425 10000 8425 9650
+Connection ~ 8425 9650
+Wire Wire Line
+	6700 9750 7550 9750
 $EndSCHEMATC
