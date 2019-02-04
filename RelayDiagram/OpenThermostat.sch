@@ -1580,10 +1580,6 @@ Wire Wire Line
 Wire Wire Line
 	9350 5225 10375 5225
 Wire Wire Line
-	8350 6050 9350 6050
-Wire Wire Line
-	9350 6050 9350 5325
-Wire Wire Line
 	9350 5325 10375 5325
 Wire Wire Line
 	8350 7875 9550 7875
@@ -2255,4 +2251,8 @@ Wire Wire Line
 	8400 3425 8425 3425
 Wire Wire Line
 	8375 1775 8425 1775
+Wire Wire Line
+	8350 6200 9350 6200
+Wire Wire Line
+	9350 5325 9350 6200
 $EndSCHEMATC
