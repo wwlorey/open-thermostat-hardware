@@ -121,17 +121,6 @@ Micro USB
 Text Notes 2775 4450 0    50   ~ 0
 Horizontal Pin Spacing: 25.5mm
 $Comp
-L power:+3V3 #PWR0104
-U 1 1 5C043BBE
-P 2750 2655
-F 0 "#PWR0104" H 2750 2505 50  0001 C CNN
-F 1 "+3V3" H 2765 2828 50  0000 C CNN
-F 2 "" H 2750 2655 50  0001 C CNN
-F 3 "" H 2750 2655 50  0001 C CNN
-	1    2750 2655
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0105
 U 1 1 5C043D75
 P 2720 2825
@@ -296,17 +285,6 @@ F 3 "" H 2210 2235 50  0001 C CNN
 	1    2210 2235
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR01
-U 1 1 5C566775
-P 595 2170
-F 0 "#PWR01" H 595 2020 50  0001 C CNN
-F 1 "+3.3V" V 750 2070 50  0000 L CNN
-F 2 "" H 595 2170 50  0001 C CNN
-F 3 "" H 595 2170 50  0001 C CNN
-	1    595  2170
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	795  2170 735  2170
 $Comp
@@ -347,19 +325,12 @@ Wire Wire Line
 Wire Wire Line
 	1195 2670 1195 2915
 Wire Wire Line
-	605  2170 605  3070
-Wire Wire Line
 	605  3070 640  3070
-Connection ~ 605  2170
-Wire Wire Line
-	605  2170 595  2170
 Wire Wire Line
 	705  2915 665  2915
 Wire Wire Line
 	665  2915 665  2170
 Connection ~ 665  2170
-Wire Wire Line
-	665  2170 605  2170
 Wire Wire Line
 	760  2755 735  2755
 Wire Wire Line
@@ -388,8 +359,6 @@ Wire Wire Line
 	2210 2235 2210 2170
 Wire Wire Line
 	2210 2170 2195 2170
-Wire Wire Line
-	2750 2725 2750 2655
 Wire Wire Line
 	2750 2825 2720 2825
 Wire Wire Line
@@ -449,17 +418,6 @@ F 3 "" H 1665 5090 50  0001 C CNN
 	1    1665 5090
 	0    1    1    0   
 $EndComp
-$Comp
-L power:+3.3V #PWR0102
-U 1 1 5C5BD849
-P 1635 4890
-F 0 "#PWR0102" H 1635 4740 50  0001 C CNN
-F 1 "+3.3V" V 1650 5018 50  0000 L CNN
-F 2 "" H 1635 4890 50  0001 C CNN
-F 3 "" H 1635 4890 50  0001 C CNN
-	1    1635 4890
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1760 4890 1635 4890
 Wire Wire Line
@@ -470,7 +428,7 @@ U 1 1 5C5E213C
 P 2580 6415
 F 0 "U3" H 2351 6369 50  0000 R CNN
 F 1 "DHT11" H 2351 6460 50  0000 R CNN
-F 2 "" H 2730 6665 50  0001 C CNN
+F 2 "SeniorDesignLibrary:DHT-11" H 2730 6665 50  0001 C CNN
 F 3 "http://akizukidenshi.com/download/ds/aosong/DHT11.pdf" H 2730 6665 50  0001 C CNN
 	1    2580 6415
 	-1   0    0    1   
@@ -499,17 +457,6 @@ Wire Wire Line
 	800  6415 800  3825
 Wire Wire Line
 	800  3825 2750 3825
-$Comp
-L power:+3.3V #PWR0103
-U 1 1 5C5F6B9B
-P 2680 7000
-F 0 "#PWR0103" H 2680 6850 50  0001 C CNN
-F 1 "+3.3V" H 2695 7173 50  0000 C CNN
-F 2 "" H 2680 7000 50  0001 C CNN
-F 3 "" H 2680 7000 50  0001 C CNN
-	1    2680 7000
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2680 7000 2680 6845
 $Comp
@@ -2255,4 +2202,57 @@ Wire Wire Line
 	1760 5290 1290 5290
 Wire Wire Line
 	1760 5490 1065 5490
+Wire Wire Line
+	595  2170 605  2170
+$Comp
+L power:+5V #PWR?
+U 1 1 5C695B74
+P 595 2170
+F 0 "#PWR?" H 595 2020 50  0001 C CNN
+F 1 "+5V" V 610 2298 50  0000 L CNN
+F 2 "" H 595 2170 50  0001 C CNN
+F 3 "" H 595 2170 50  0001 C CNN
+	1    595  2170
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	605  2170 605  3070
+Connection ~ 605  2170
+Wire Wire Line
+	605  2170 665  2170
+$Comp
+L power:+5V #PWR?
+U 1 1 5C6B2741
+P 1635 4890
+F 0 "#PWR?" H 1635 4740 50  0001 C CNN
+F 1 "+5V" V 1650 5018 50  0000 L CNN
+F 2 "" H 1635 4890 50  0001 C CNN
+F 3 "" H 1635 4890 50  0001 C CNN
+	1    1635 4890
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C6B2F04
+P 4165 2725
+F 0 "#PWR?" H 4165 2575 50  0001 C CNN
+F 1 "+5V" V 4180 2853 50  0000 L CNN
+F 2 "" H 4165 2725 50  0001 C CNN
+F 3 "" H 4165 2725 50  0001 C CNN
+	1    4165 2725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 2725 4165 2725
+$Comp
+L power:+5V #PWR?
+U 1 1 5C6EBC0D
+P 2680 7000
+F 0 "#PWR?" H 2680 6850 50  0001 C CNN
+F 1 "+5V" H 2695 7173 50  0000 C CNN
+F 2 "" H 2680 7000 50  0001 C CNN
+F 3 "" H 2680 7000 50  0001 C CNN
+	1    2680 7000
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
