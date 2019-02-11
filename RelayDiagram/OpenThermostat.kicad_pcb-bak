@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 1)
-    (tracks 111)
+    (tracks 117)
     (zones 0)
     (modules 81)
     (nets 99)
@@ -1274,7 +1274,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5C609FF4)
-    (at 199.39 57.15)
+    (at 80.584 89.916)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5C6436A4)
@@ -3056,7 +3056,7 @@
   )
 
   (module SeniorDesignLibrary:DHT-11 (layer F.Cu) (tedit 5C59CB2A) (tstamp 5C65DC62)
-    (at 127.651581 -17.892959)
+    (at 83.312 94.234)
     (path /5C5E213C)
     (fp_text reference U3 (at 0.13716 -3.48234) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3358,5 +3358,11 @@
   (segment (start 86.868 98.806) (end 86.868 100.838) (width 0.254) (layer F.Cu) (net 39))
   (segment (start 86.36 98.298) (end 86.868 98.806) (width 0.254) (layer F.Cu) (net 39))
   (segment (start 65.278 97.79) (end 65.278 95.784) (width 0.254) (layer F.Cu) (net 39))
+  (segment (start 81.788 99.635919) (end 81.788 94.234) (width 0.254) (layer F.Cu) (net 43))
+  (segment (start 81.788 100.838) (end 81.788 99.635919) (width 0.254) (layer F.Cu) (net 43))
+  (segment (start 81.788 90.17) (end 81.534 89.916) (width 0.254) (layer F.Cu) (net 43))
+  (segment (start 81.788 94.234) (end 81.788 90.17) (width 0.254) (layer F.Cu) (net 43))
+  (segment (start 79.248 90.302) (end 79.634 89.916) (width 0.254) (layer F.Cu) (net 59))
+  (segment (start 79.248 94.234) (end 79.248 90.302) (width 0.254) (layer F.Cu) (net 59))
 
 )

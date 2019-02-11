@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.25)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
     (user_trace_width 0.762)
@@ -681,7 +681,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 5C65DF2D)
-    (at 53.848 125.73 90)
+    (at 53.848 126.238 90)
     (descr "Through hole straight pin header, 1x15, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x15 2.54mm single row")
     (path /5C04190B)
@@ -3235,16 +3235,16 @@
   )
 
   (dimension 27.94 (width 0.3) (layer F.SilkS)
-    (gr_text "27.940 mm" (at 51.376 113.538 90) (layer F.SilkS) (tstamp 5C66133A)
+    (gr_text "27.940 mm" (at 39.81 113.538 270) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
-    (feature1 (pts (xy 49.276 99.568) (xy 49.862421 99.568)))
-    (feature2 (pts (xy 49.276 127.508) (xy 49.862421 127.508)))
-    (crossbar (pts (xy 49.276 127.508) (xy 49.276 99.568)))
-    (arrow1a (pts (xy 49.276 99.568) (xy 49.862421 100.694504)))
-    (arrow1b (pts (xy 49.276 99.568) (xy 48.689579 100.694504)))
-    (arrow2a (pts (xy 49.276 127.508) (xy 49.862421 126.381496)))
-    (arrow2b (pts (xy 49.276 127.508) (xy 48.689579 126.381496)))
+    (feature1 (pts (xy 48.006 127.508) (xy 41.323579 127.508)))
+    (feature2 (pts (xy 48.006 99.568) (xy 41.323579 99.568)))
+    (crossbar (pts (xy 41.91 99.568) (xy 41.91 127.508)))
+    (arrow1a (pts (xy 41.91 127.508) (xy 41.323579 126.381496)))
+    (arrow1b (pts (xy 41.91 127.508) (xy 42.496421 126.381496)))
+    (arrow2a (pts (xy 41.91 99.568) (xy 41.323579 100.694504)))
+    (arrow2b (pts (xy 41.91 99.568) (xy 42.496421 100.694504)))
   )
 
   (via (at 63.1698 91.3892) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 25))
