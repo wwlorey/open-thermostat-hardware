@@ -1031,13 +1031,13 @@ Text Notes 7725 8225 0    50   ~ 0
 W (Aux Heat)
 Text Notes 7875 9850 0    50   ~ 0
 W2
-Text Notes 10600 5050 0    50   ~ 0
+Text Notes 10600 5350 0    50   ~ 0
 O/B
-Text Notes 10600 5150 0    50   ~ 0
-G (Fan)
 Text Notes 10600 5250 0    50   ~ 0
+G (Fan)
+Text Notes 10600 5550 0    50   ~ 0
 Y (Compressor)
-Text Notes 10600 5450 0    50   ~ 0
+Text Notes 10600 5150 0    50   ~ 0
 W (Aux Heat)
 Text Notes 10600 5650 0    50   ~ 0
 C (Common)
@@ -1045,9 +1045,9 @@ Text Notes 10600 4950 0    50   ~ 0
 R (Power, 24V, 36V)
 Text Notes 10600 4850 0    50   ~ 0
 RC
-Text Notes 10600 5550 0    50   ~ 0
+Text Notes 10600 5050 0    50   ~ 0
 W2
-Text Notes 10600 5350 0    50   ~ 0
+Text Notes 10600 5450 0    50   ~ 0
 Y2
 $Comp
 L Connector:Conn_01x09_Female J4
@@ -1849,35 +1849,13 @@ Wire Wire Line
 Wire Wire Line
 	7550 1275 8350 1275
 Wire Wire Line
-	9800 1275 9800 5025
-Wire Wire Line
-	9800 5025 10375 5025
-Wire Wire Line
 	7550 2925 8350 2925
-Wire Wire Line
-	9550 2925 9550 5125
-Wire Wire Line
-	9550 5125 10375 5125
 Wire Wire Line
 	7550 4550 8350 4550
 Wire Wire Line
-	9350 4550 9350 5225
-Wire Wire Line
-	9350 5225 10375 5225
-Wire Wire Line
-	9350 5325 10375 5325
-Wire Wire Line
 	7550 7875 8350 7875
 Wire Wire Line
-	9550 7875 9550 5425
-Wire Wire Line
-	9550 5425 10375 5425
-Wire Wire Line
 	7550 9500 8350 9500
-Wire Wire Line
-	9800 9500 9800 5525
-Wire Wire Line
-	9800 5525 10375 5525
 Wire Wire Line
 	2750 2925 2475 2925
 Wire Wire Line
@@ -2161,8 +2139,6 @@ Wire Wire Line
 Wire Wire Line
 	7550 6200 8350 6200
 Wire Wire Line
-	9350 6200 9350 5325
-Wire Wire Line
 	1290 5290 1760 5290
 Wire Wire Line
 	1065 5490 1760 5490
@@ -2173,9 +2149,6 @@ Wire Wire Line
 	3950 2725 4165 2725
 Wire Wire Line
 	1095 925  1635 925 
-Connection ~ 8350 1275
-Connection ~ 8350 2925
-Connection ~ 8350 4550
 Connection ~ 8350 6200
 Connection ~ 8350 7875
 Connection ~ 8350 9500
@@ -2298,15 +2271,128 @@ Wire Wire Line
 Wire Wire Line
 	605  2170 665  2170
 Wire Wire Line
-	8350 1275 9800 1275
-Wire Wire Line
-	8350 2925 9550 2925
-Wire Wire Line
-	8350 4550 9350 4550
-Wire Wire Line
 	8350 6200 9350 6200
 Wire Wire Line
 	8350 7875 9550 7875
 Wire Wire Line
 	8350 9500 9800 9500
+Wire Wire Line
+	10500 2825 10400 2825
+Wire Wire Line
+	9800 5025 10375 5025
+Wire Wire Line
+	9800 5025 9800 9500
+Wire Wire Line
+	9550 5125 9750 5125
+Wire Wire Line
+	9750 5125 9750 5175
+Wire Wire Line
+	9750 5175 9850 5175
+Wire Wire Line
+	9850 5175 9850 5125
+Wire Wire Line
+	9850 5125 10375 5125
+Wire Wire Line
+	9550 5125 9550 7875
+Wire Wire Line
+	10375 5225 9850 5225
+Wire Wire Line
+	9850 5225 9850 5275
+Wire Wire Line
+	9850 5275 9750 5275
+Wire Wire Line
+	9750 5275 9750 5225
+Wire Wire Line
+	9750 5225 9600 5225
+Wire Wire Line
+	9600 5225 9600 5275
+Wire Wire Line
+	9600 5275 9500 5275
+Wire Wire Line
+	9500 5275 9500 2925
+Wire Wire Line
+	9500 2925 8350 2925
+Connection ~ 8350 2925
+Wire Wire Line
+	10375 5325 9850 5325
+Wire Wire Line
+	9850 5325 9850 5375
+Wire Wire Line
+	9850 5375 9750 5375
+Wire Wire Line
+	9750 5375 9750 5325
+Wire Wire Line
+	9750 5325 9600 5325
+Wire Wire Line
+	9600 5325 9600 5375
+Wire Wire Line
+	9600 5375 9500 5375
+Wire Wire Line
+	9500 5375 9500 5325
+Wire Wire Line
+	9500 5325 9325 5325
+Wire Wire Line
+	9325 5325 9325 3000
+Wire Wire Line
+	9325 3000 9250 3000
+Wire Wire Line
+	9250 3000 9250 2850
+Wire Wire Line
+	9250 2850 9325 2850
+Wire Wire Line
+	9325 2850 9325 1275
+Wire Wire Line
+	9325 1275 8350 1275
+Connection ~ 8350 1275
+Wire Wire Line
+	9350 6200 9350 5425
+Wire Wire Line
+	9350 5425 9500 5425
+Wire Wire Line
+	9500 5425 9500 5475
+Wire Wire Line
+	9500 5475 9600 5475
+Wire Wire Line
+	9600 5475 9600 5425
+Wire Wire Line
+	9600 5425 9750 5425
+Wire Wire Line
+	9750 5425 9750 5475
+Wire Wire Line
+	9750 5475 9850 5475
+Wire Wire Line
+	9850 5475 9850 5425
+Wire Wire Line
+	9850 5425 10375 5425
+Wire Wire Line
+	10350 5525 9850 5525
+Wire Wire Line
+	9850 5525 9850 5575
+Wire Wire Line
+	9850 5575 9750 5575
+Wire Wire Line
+	9750 5575 9750 5525
+Wire Wire Line
+	9750 5525 9600 5525
+Wire Wire Line
+	9600 5525 9600 5575
+Wire Wire Line
+	9600 5575 9500 5575
+Wire Wire Line
+	9500 5575 9500 5525
+Wire Wire Line
+	9500 5525 9400 5525
+Wire Wire Line
+	9400 5525 9400 5575
+Wire Wire Line
+	9400 5575 9300 5575
+Wire Wire Line
+	9300 5575 9300 5525
+Wire Wire Line
+	9300 5525 9125 5525
+Wire Wire Line
+	9125 5525 9125 4550
+Wire Wire Line
+	9125 4550 8350 4550
+Connection ~ 8350 4550
 $EndSCHEMATC
