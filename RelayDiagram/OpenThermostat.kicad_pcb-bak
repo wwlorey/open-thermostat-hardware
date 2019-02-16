@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 14)
+    (drawings 15)
     (tracks 325)
     (zones 0)
     (modules 90)
@@ -3592,7 +3592,7 @@
   )
 
   (module Open_Thermostat:MB10F-13 (layer F.Cu) (tedit 5C64C787) (tstamp 5C64CCA6)
-    (at 137.668 172.72)
+    (at 76.918 85.72)
     (path /5C64C7AA)
     (fp_text reference U10 (at 5.4 -4.1 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3621,7 +3621,7 @@
   )
 
   (module Open_Thermostat:L7805CV (layer F.Cu) (tedit 5C64C815) (tstamp 5C64CCBD)
-    (at 127.25 169.050001)
+    (at 66.5 82.050001)
     (path /5C651BD2)
     (fp_text reference U11 (at -2 4.6) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3657,6 +3657,9 @@
       (net 59 +5V))
   )
 
+  (gr_text "Open Thermostat Rev. A\nTristan Ponder, Doug Basler, Nick Covert" (at 75.25 61.25) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_arc (start 51.25 57.75) (end 51.25 57.5) (angle -90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 203.5 71) (end 203.5 58) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 51.25 57.5) (end 203 57.5) (layer Edge.Cuts) (width 0.1))
