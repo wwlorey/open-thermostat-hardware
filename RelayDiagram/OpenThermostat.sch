@@ -20,7 +20,7 @@ U 1 1 5C0418D5
 P 2950 3425
 F 0 "J2" H 2900 2600 50  0000 L CNN
 F 1 "Conn_01x15_Female" H 2225 2525 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm" H 2950 3425 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x13_Pitch2.54mm_SMD_Pin1Right" H 2950 3425 50  0001 C CNN
 F 3 "~" H 2950 3425 50  0001 C CNN
 	1    2950 3425
 	1    0    0    -1  
@@ -1082,7 +1082,7 @@ U 1 1 5D5018A7
 P 1935 725
 F 0 "J1" V 2100 655 50  0000 C CNN
 F 1 "Conn_01x08_Female" V 2009 655 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch2.54mm" H 1935 725 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch1.27mm" H 1935 725 50  0001 C CNN
 F 3 "~" H 1935 725 50  0001 C CNN
 	1    1935 725 
 	0    -1   -1   0   
@@ -1431,7 +1431,7 @@ F 3 "" H 8500 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenThermostat-rescue:MB10S-13 U10
+L OpenThermostat-rescue:MB10S-13-OpenThermostat-rescue U10
 U 1 1 5C64C7AA
 P 10975 2675
 F 0 "U10" H 10975 3000 60  0000 C CNN
@@ -1444,7 +1444,7 @@ $EndComp
 Text HLabel 10500 2525 0    50   Input ~ 0
 R
 $Comp
-L OpenThermostat-rescue:L7805CV U11
+L OpenThermostat-rescue:L7805CV-OpenThermostat-rescue U11
 U 1 1 5C651BD2
 P 10975 3425
 F 0 "U11" H 10975 3675 60  0000 C CNN
@@ -1468,7 +1468,7 @@ F 3 "" H 11450 2825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L solarcar-device:Capacitor_Unpolarized C1
+L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device C1
 U 1 1 5C65344A
 P 11450 2675
 F 0 "C1" H 11475 2775 59  0000 L CNN
@@ -2512,4 +2512,54 @@ Wire Wire Line
 	4825 3725 3950 3725
 Wire Wire Line
 	4725 3825 3950 3825
+$Comp
+L Device:LED D13
+U 1 1 5C7ACEAE
+P 2060 7800
+F 0 "D13" H 2052 7545 50  0000 C CNN
+F 1 "LED" H 2052 7636 50  0000 C CNN
+F 2 "Diodes_SMD:D_0805" H 2060 7800 50  0001 C CNN
+F 3 "~" H 2060 7800 50  0001 C CNN
+	1    2060 7800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R46
+U 1 1 5C7AD1B1
+P 2465 7800
+F 0 "R46" V 2340 7805 50  0000 C CNN
+F 1 "100" V 2465 7805 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2395 7800 50  0001 C CNN
+F 3 "~" H 2465 7800 50  0001 C CNN
+	1    2465 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2210 7800 2315 7800
+Wire Wire Line
+	2615 7800 2655 7800
+Wire Wire Line
+	1910 7800 1890 7800
+$Comp
+L power:+5V #PWR0101
+U 1 1 5C851227
+P 1890 7800
+F 0 "#PWR0101" H 1890 7650 50  0001 C CNN
+F 1 "+5V" V 1905 7928 50  0000 L CNN
+F 2 "" H 1890 7800 50  0001 C CNN
+F 3 "" H 1890 7800 50  0001 C CNN
+	1    1890 7800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5C851537
+P 2655 7800
+F 0 "#PWR0102" H 2655 7550 50  0001 C CNN
+F 1 "GND" V 2660 7672 50  0000 R CNN
+F 2 "" H 2655 7800 50  0001 C CNN
+F 3 "" H 2655 7800 50  0001 C CNN
+	1    2655 7800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
