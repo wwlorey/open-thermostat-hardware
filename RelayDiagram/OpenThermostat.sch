@@ -1431,7 +1431,7 @@ F 3 "" H 8500 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenThermostat-rescue:MB10S-13-OpenThermostat-rescue-OpenThermostat-rescue U10
+L OpenThermostat-rescue:MB10S-13-OpenThermostat-rescue-OpenThermostat-rescue-OpenThermostat-rescue U10
 U 1 1 5C64C7AA
 P 10975 2675
 F 0 "U10" H 10975 3000 60  0000 C CNN
@@ -1444,7 +1444,7 @@ $EndComp
 Text HLabel 10500 2525 0    50   Input ~ 0
 R
 $Comp
-L OpenThermostat-rescue:L7805CV-OpenThermostat-rescue-OpenThermostat-rescue U11
+L OpenThermostat-rescue:L7805CV-OpenThermostat-rescue-OpenThermostat-rescue-OpenThermostat-rescue U11
 U 1 1 5C651BD2
 P 10975 3425
 F 0 "U11" H 10975 3675 60  0000 C CNN
@@ -1468,7 +1468,7 @@ F 3 "" H 11450 2825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue C1
+L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue-OpenThermostat-rescue C1
 U 1 1 5C65344A
 P 11450 2675
 F 0 "C1" H 11475 2775 59  0000 L CNN
@@ -1656,13 +1656,9 @@ Wire Wire Line
 Wire Wire Line
 	1655 3925 1655 4565
 Wire Wire Line
-	1655 4565 4110 4565
-Wire Wire Line
 	2750 4125 1735 4125
 Wire Wire Line
 	1735 4125 1735 4515
-Wire Wire Line
-	1735 4515 4225 4515
 Wire Wire Line
 	6375 900  6400 900 
 Wire Wire Line
@@ -1846,11 +1842,7 @@ Wire Wire Line
 Wire Wire Line
 	6075 9950 4725 9950
 Wire Wire Line
-	4725 9950 4725 3825
-Wire Wire Line
 	6075 9125 4825 9125
-Wire Wire Line
-	4825 9125 4825 3725
 Wire Wire Line
 	6075 8325 4925 8325
 Wire Wire Line
@@ -2039,10 +2031,6 @@ Wire Wire Line
 	3880 4695 3880 6040
 Wire Wire Line
 	3990 4640 3990 6040
-Wire Wire Line
-	4110 4565 4110 6040
-Wire Wire Line
-	4225 4515 4225 6040
 Wire Wire Line
 	8400 8800 8425 8800
 Wire Wire Line
@@ -2508,10 +2496,6 @@ Wire Wire Line
 	5025 3525 3950 3525
 Wire Wire Line
 	4925 3625 3950 3625
-Wire Wire Line
-	4825 3725 3950 3725
-Wire Wire Line
-	4725 3825 3950 3825
 $Comp
 L Device:LED D13
 U 1 1 5C7ACEAE
@@ -2563,7 +2547,7 @@ F 3 "" H 2655 7800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue C3
+L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue-OpenThermostat-rescue C3
 U 1 1 5C778E29
 P 3950 2575
 F 0 "C3" H 3975 2675 59  0000 L CNN
@@ -2586,7 +2570,7 @@ F 3 "" H 3950 2425 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue C2
+L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue-OpenThermostat-rescue C2
 U 1 1 5C77A8FC
 P 1635 4740
 F 0 "C2" H 1660 4840 59  0000 L CNN
@@ -2608,4 +2592,20 @@ F 3 "" H 1635 4590 50  0001 C CNN
 	1    1635 4590
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	4825 4515 4825 9125
+Wire Wire Line
+	1735 4515 4825 4515
+Wire Wire Line
+	4725 4565 4725 9950
+Wire Wire Line
+	1655 4565 4725 4565
+Wire Wire Line
+	4110 6040 4110 3825
+Wire Wire Line
+	4110 3825 3950 3825
+Wire Wire Line
+	3950 3725 4225 3725
+Wire Wire Line
+	4225 3725 4225 6040
 $EndSCHEMATC

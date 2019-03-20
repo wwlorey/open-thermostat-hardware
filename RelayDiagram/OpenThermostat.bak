@@ -1055,7 +1055,7 @@ U 1 1 5CB87D90
 P 10575 5325
 F 0 "J4" H 10400 5900 50  0000 L CNN
 F 1 "Conn_01x09_Female" H 10400 5825 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x09_Pitch2.54mm" H 10575 5325 50  0001 C CNN
+F 2 "SeniorDesign:5mmPtichBlockHeader" H 10575 5325 50  0001 C CNN
 F 3 "~" H 10575 5325 50  0001 C CNN
 	1    10575 5325
 	1    0    0    -1  
@@ -2563,10 +2563,10 @@ F 3 "" H 2655 7800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue C?
+L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue C3
 U 1 1 5C778E29
 P 3950 2575
-F 0 "C?" H 3975 2675 59  0000 L CNN
+F 0 "C3" H 3975 2675 59  0000 L CNN
 F 1 "10uF" H 4000 2475 59  0000 L CNN
 F 2 "solarcar-device:Capacitor_0805" H 3050 3425 50  0001 C CNN
 F 3 "" H 3950 2575 50  0001 C CNN
@@ -2575,10 +2575,10 @@ F 3 "" H 3950 2575 50  0001 C CNN
 $EndComp
 Connection ~ 3950 2725
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5C7795E4
 P 3950 2425
-F 0 "#PWR?" H 3950 2175 50  0001 C CNN
+F 0 "#PWR0103" H 3950 2175 50  0001 C CNN
 F 1 "GND" H 3955 2252 50  0000 C CNN
 F 2 "" H 3950 2425 50  0001 C CNN
 F 3 "" H 3950 2425 50  0001 C CNN
@@ -2586,10 +2586,10 @@ F 3 "" H 3950 2425 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue C?
+L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue C2
 U 1 1 5C77A8FC
 P 1635 4740
-F 0 "C?" H 1660 4840 59  0000 L CNN
+F 0 "C2" H 1660 4840 59  0000 L CNN
 F 1 "10uF" H 1685 4640 59  0000 L CNN
 F 2 "solarcar-device:Capacitor_0805" H 735 5590 50  0001 C CNN
 F 3 "" H 1635 4740 50  0001 C CNN
@@ -2598,10 +2598,10 @@ F 3 "" H 1635 4740 50  0001 C CNN
 $EndComp
 Connection ~ 1635 4890
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 5C77BDF8
 P 1635 4590
-F 0 "#PWR?" H 1635 4340 50  0001 C CNN
+F 0 "#PWR0104" H 1635 4340 50  0001 C CNN
 F 1 "GND" V 1640 4462 50  0000 R CNN
 F 2 "" H 1635 4590 50  0001 C CNN
 F 3 "" H 1635 4590 50  0001 C CNN
