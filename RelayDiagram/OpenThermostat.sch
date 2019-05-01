@@ -1077,17 +1077,6 @@ R
 Text HLabel 7550 9350 0    50   Input ~ 0
 R
 $Comp
-L Connector:Conn_01x08_Female J1
-U 1 1 5D5018A7
-P 1935 725
-F 0 "J1" V 2100 655 50  0000 C CNN
-F 1 "Conn_01x08_Female" V 2009 655 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch1.27mm" H 1935 725 50  0001 C CNN
-F 3 "~" H 1935 725 50  0001 C CNN
-	1    1935 725 
-	0    -1   -1   0   
-$EndComp
-$Comp
 L SeniorDesignLibrary:EE2-3TNU-L_DPDT_Relay U8
 U 1 1 5CA3EE63
 P 7950 7575
@@ -1097,61 +1086,6 @@ F 2 "SeniorDesign:EE2-5V-Relay" H 7800 7575 50  0001 C CNN
 F 3 "" H 7800 7575 50  0001 C CNN
 	1    7950 7575
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5C5A6D12
-P 3760 6190
-F 0 "R5" H 3650 6330 50  0000 L CNN
-F 1 "1M" V 3760 6130 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" V 3690 6190 50  0001 C CNN
-F 3 "~" H 3760 6190 50  0001 C CNN
-	1    3760 6190
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 5C7E067D
-P 3880 6190
-F 0 "R6" H 3770 6330 50  0000 L CNN
-F 1 "1M" V 3880 6130 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" V 3810 6190 50  0001 C CNN
-F 3 "~" H 3880 6190 50  0001 C CNN
-	1    3880 6190
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 5C7E089B
-P 3990 6190
-F 0 "R7" H 3890 6330 50  0000 L CNN
-F 1 "1M" V 3990 6130 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" V 3920 6190 50  0001 C CNN
-F 3 "~" H 3990 6190 50  0001 C CNN
-	1    3990 6190
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 5C7E10D8
-P 4110 6190
-F 0 "R8" H 4000 6330 50  0000 L CNN
-F 1 "1M" V 4110 6130 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" V 4040 6190 50  0001 C CNN
-F 3 "~" H 4110 6190 50  0001 C CNN
-	1    4110 6190
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 5C7E13A6
-P 4225 6190
-F 0 "R9" H 4125 6330 50  0000 L CNN
-F 1 "1M" V 4225 6130 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" V 4155 6190 50  0001 C CNN
-F 3 "~" H 4225 6190 50  0001 C CNN
-	1    4225 6190
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R38
@@ -1431,7 +1365,7 @@ F 3 "" H 8500 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenThermostat-rescue:MB10S-13-OpenThermostat-rescue-OpenThermostat-rescue-OpenThermostat-rescue U10
+L OpenThermostat-rescue:MB10S-13-OpenThermostat-rescue-OpenThermostat-rescue-OpenThermostat-rescue-OpenThermostat-rescue U10
 U 1 1 5C64C7AA
 P 10975 2675
 F 0 "U10" H 10975 3000 60  0000 C CNN
@@ -1444,7 +1378,7 @@ $EndComp
 Text HLabel 10500 2525 0    50   Input ~ 0
 R
 $Comp
-L OpenThermostat-rescue:L7805CV-OpenThermostat-rescue-OpenThermostat-rescue-OpenThermostat-rescue U11
+L OpenThermostat-rescue:L7805CV-OpenThermostat-rescue-OpenThermostat-rescue-OpenThermostat-rescue-OpenThermostat-rescue U11
 U 1 1 5C651BD2
 P 10975 3425
 F 0 "U11" H 10975 3675 60  0000 C CNN
@@ -1468,7 +1402,7 @@ F 3 "" H 11450 2825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue-OpenThermostat-rescue C1
+L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue-OpenThermostat-rescue-OpenThermostat-rescue C1
 U 1 1 5C65344A
 P 11450 2675
 F 0 "C1" H 11475 2775 59  0000 L CNN
@@ -1557,8 +1491,6 @@ Wire Wire Line
 	2210 2170 2195 2170
 Wire Wire Line
 	2750 2825 2720 2825
-Wire Wire Line
-	1095 925  1095 1670
 Wire Wire Line
 	1195 1670 1195 1050
 Wire Wire Line
@@ -2016,22 +1948,6 @@ Connection ~ 8425 9650
 Wire Wire Line
 	6700 9750 7550 9750
 Wire Wire Line
-	3760 6680 3760 6340
-Wire Wire Line
-	3880 6685 3880 6340
-Wire Wire Line
-	3990 6340 3990 6680
-Wire Wire Line
-	4110 6685 4110 6340
-Wire Wire Line
-	4225 6685 4225 6340
-Wire Wire Line
-	3760 4720 3760 6040
-Wire Wire Line
-	3880 4695 3880 6040
-Wire Wire Line
-	3990 4640 3990 6040
-Wire Wire Line
 	8400 8800 8425 8800
 Wire Wire Line
 	8400 7175 8425 7175
@@ -2066,8 +1982,6 @@ Wire Wire Line
 Connection ~ 605  2170
 Wire Wire Line
 	3950 2725 4165 2725
-Wire Wire Line
-	1095 925  1635 925 
 Connection ~ 8350 6200
 Connection ~ 8350 7875
 Connection ~ 8350 9500
@@ -2547,7 +2461,7 @@ F 3 "" H 2655 7800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue-OpenThermostat-rescue C3
+L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue-OpenThermostat-rescue-OpenThermostat-rescue C3
 U 1 1 5C778E29
 P 3950 2575
 F 0 "C3" H 3975 2675 59  0000 L CNN
@@ -2570,7 +2484,7 @@ F 3 "" H 3950 2425 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue-OpenThermostat-rescue C2
+L OpenThermostat-rescue:Capacitor_Unpolarized-solarcar-device-OpenThermostat-rescue-OpenThermostat-rescue-OpenThermostat-rescue C2
 U 1 1 5C77A8FC
 P 1635 4740
 F 0 "C2" H 1660 4840 59  0000 L CNN
@@ -2600,8 +2514,6 @@ Wire Wire Line
 	4725 4565 4725 9950
 Wire Wire Line
 	1655 4565 4725 4565
-Wire Wire Line
-	4110 6040 4110 4230
 Wire Wire Line
 	4110 3825 3950 3825
 Wire Wire Line
@@ -2717,9 +2629,62 @@ Wire Wire Line
 Wire Wire Line
 	2625 3395 2625 4405
 Connection ~ 4225 4405
-Wire Wire Line
-	4225 4405 4225 6040
 Connection ~ 2525 2725
 Wire Wire Line
 	2750 2725 2525 2725
+Wire Wire Line
+	4225 4405 4225 6685
+Wire Wire Line
+	4110 4230 4110 6685
+Wire Wire Line
+	3990 4640 3990 6680
+Wire Wire Line
+	3880 4695 3880 6685
+Wire Wire Line
+	3760 4720 3760 6680
+$Comp
+L conn:Conn_01x10_Female J1
+U 1 1 5D4716B1
+P 1835 725
+F 0 "J1" V 2000 655 50  0000 C CNN
+F 1 "Conn_01x10_Female" V 1909 655 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x10_Pitch2.54mm" H 1835 725 50  0001 C CNN
+F 3 "~" H 1835 725 50  0001 C CNN
+	1    1835 725 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5D531BE3
+P 1535 925
+F 0 "#PWR0106" H 1535 675 50  0001 C CNN
+F 1 "GND" H 1540 752 50  0000 C CNN
+F 2 "" H 1535 925 50  0001 C CNN
+F 3 "" H 1535 925 50  0001 C CNN
+	1    1535 925 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1635 925  1635 1025
+Wire Wire Line
+	1635 1025 1095 1025
+Wire Wire Line
+	1095 1025 1095 1670
+$Comp
+L power:+5V #PWR0105
+U 1 1 5D4723B8
+P 1250 920
+F 0 "#PWR0105" H 1250 770 50  0001 C CNN
+F 1 "+5V" H 1185 1095 50  0000 L CNN
+F 2 "" H 1250 920 50  0001 C CNN
+F 3 "" H 1250 920 50  0001 C CNN
+	1    1250 920 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 920  1250 980 
+Wire Wire Line
+	1250 980  1435 980 
+Wire Wire Line
+	1435 980  1435 925 
 $EndSCHEMATC
