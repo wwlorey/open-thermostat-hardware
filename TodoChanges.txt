@@ -1,0 +1,2 @@
+- New power delivery stuff
+- Fuse so things don't die
